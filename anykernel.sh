@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=MaVins Kernel by Uke@PWD
+kernel.string=Megitsune by UkePWD
 do.devicecheck=1
 do.modules=0
 do.systemless=1
