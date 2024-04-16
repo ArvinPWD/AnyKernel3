@@ -4,15 +4,15 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=Megitsune by UkePWD
+kernel.string=
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
 device.name1=merlin
-device.name2=merlinx
-device.name3=lancelot
+device.name2=
+device.name3=
 supported.versions=
 supported.patchlevels=
 supported.vendorpatchlevels=
