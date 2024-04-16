@@ -423,7 +423,13 @@ do_modules() {
       return 1;
     fi;
     cd $AKHOME/modules;
-    ui_print " " "Creating kernel helper systemless module...";
+    ui_print "|------------Megitsune-merlin------------|";
+    ui_print "|---------------By UkePWD---------------|";
+    ui_print "|------------------------------------------|";
+    ui_print "|------------------------------------------|";
+    ui_print "|   AnyKernel3 by osm0sis @ xda-developers |";
+    ui_print "|------------------------------------------|";
+    ui_print "|------------------------------------------|";
     if [ -d /data/adb/magisk -a -f $AKHOME/magisk_patched ] || [ -d /data/data/me.weishu.kernelsu -a -f $AKHOME/kernelsu_patched ]; then
       umask=$(umask);
       moddir=/data/adb/modules/ak3-helper;
